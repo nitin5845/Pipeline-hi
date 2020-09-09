@@ -9,8 +9,7 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 
-steps:
-- 
+steps:- 
 - task: Bash@3
   inputs:
     filePath: 'hello.sh'
